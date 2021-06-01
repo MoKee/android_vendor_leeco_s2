@@ -20,98 +20,92 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
-    vendor/leeco/s2/proprietary/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_SYSTEM)/etc/dts/dts-m6m8-lic.key \
-    vendor/leeco/s2/proprietary/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8952 \
-    vendor/leeco/s2/proprietary/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8976 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/alipay.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.mdt \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.mbn \
-    vendor/leeco/s2/proprietary/etc/firmware/fidotap.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
-    vendor/leeco/s2/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pfp_470.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pm4_470.fw \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b04 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mbn \
-    vendor/leeco/s2/proprietary/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
-    vendor/leeco/s2/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b00 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b01 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b02 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b03 \
-    vendor/leeco/s2/proprietary/etc/firmware/widevine.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.mdt \
-    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/leeco/s2/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin \
-    vendor/leeco/s2/proprietary/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml \
-    vendor/leeco/s2/proprietary/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml \
-    vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
-    vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml \
-    vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml \
-    vendor/leeco/s2/proprietary/etc/settings/mono_qcom.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/settings/mono_qcom.cnt \
-    vendor/leeco/s2/proprietary/lib/libLetvCameraImageSDK.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libLetvCameraImageSDK.so \
-    vendor/leeco/s2/proprietary/lib/libamipengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libamipengine.so \
-    vendor/leeco/s2/proprietary/lib/libarcimgutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcimgutils.so \
-    vendor/leeco/s2/proprietary/lib/libarcimgutilsbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcimgutilsbase.so \
-    vendor/leeco/s2/proprietary/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
-    vendor/leeco/s2/proprietary/lib/libarcsoft_face_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_face_detection.so \
-    vendor/leeco/s2/proprietary/lib/libarcsoft_face_tracking.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_face_tracking.so \
-    vendor/leeco/s2/proprietary/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_hdr.so \
-    vendor/leeco/s2/proprietary/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_night_shot.so \
-    vendor/leeco/s2/proprietary/lib/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/leeco/s2/proprietary/lib/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_smart_denoise.so \
-    vendor/leeco/s2/proprietary/lib/libcamera_letv_algo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_letv_algo.so \
-    vendor/leeco/s2/proprietary/lib/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpbase.so \
-    vendor/leeco/s2/proprietary/lib/libmpkernel.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpkernel.so \
-    vendor/leeco/s2/proprietary/lib/libmpstream.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpstream.so \
-    vendor/leeco/s2/proprietary/lib/libmputility.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmputility.so \
-    vendor/leeco/s2/proprietary/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
-    vendor/leeco/s2/proprietary/lib64/hw/fingerprint.vendor.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.vendor.msm8952.so \
-    vendor/leeco/s2/proprietary/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gxfingerprint.default.so \
-    vendor/leeco/s2/proprietary/lib64/libfp_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_client.so \
-    vendor/leeco/s2/proprietary/lib64/libfp_gf_intejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_gf_intejni.so \
-    vendor/leeco/s2/proprietary/lib64/libfpnav.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpnav.so \
-    vendor/leeco/s2/proprietary/lib64/libfpservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpservice.so \
+    vendor/leeco/s2/proprietary/system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Bluetooth_cal.acdb \
+    vendor/leeco/s2/proprietary/system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_General_cal.acdb \
+    vendor/leeco/s2/proprietary/system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Global_cal.acdb \
+    vendor/leeco/s2/proprietary/system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Handset_cal.acdb \
+    vendor/leeco/s2/proprietary/system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
+    vendor/leeco/s2/proprietary/system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
+    vendor/leeco/s2/proprietary/system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
+    vendor/leeco/s2/proprietary/system/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_SYSTEM)/etc/dts/dts-m6m8-lic.key \
+    vendor/leeco/s2/proprietary/system/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8952 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8976 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b00 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b01 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b02 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b03 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.mdt \
+    vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b00 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b01 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b02 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b03 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.mdt \
+    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b00 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b01 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b02 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b03 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.mbn \
+    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.mdt \
+    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b00 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b01 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b02 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b03 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.mdt \
+    vendor/leeco/s2/proprietary/system/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
+    vendor/leeco/s2/proprietary/system/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pfp_470.fw \
+    vendor/leeco/s2/proprietary/system/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pm4_470.fw \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b00 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b01 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b02 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b03 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b04 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mbn \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mdt \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
+    vendor/leeco/s2/proprietary/system/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
+    vendor/leeco/s2/proprietary/system/etc/firmware/widevine.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b00 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/widevine.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b01 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/widevine.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b02 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/widevine.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.b03 \
+    vendor/leeco/s2/proprietary/system/etc/firmware/widevine.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/widevine.mdt \
+    vendor/leeco/s2/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/leeco/s2/proprietary/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_nofem.bin \
+    vendor/leeco/s2/proprietary/system/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_boe_nt35596s_fhd_vdo_dsi_panel.xml \
+    vendor/leeco/s2/proprietary/system/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_boe_nt36760_fhd_cmd_dsi_panel.xml \
+    vendor/leeco/s2/proprietary/system/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
+    vendor/leeco/s2/proprietary/system/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml \
+    vendor/leeco/s2/proprietary/system/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/leeco/s2/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/leeco/s2/proprietary/system/etc/settings/mono_qcom.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/settings/mono_qcom.cnt \
+    vendor/leeco/s2/proprietary/system/lib/libLetvCameraImageSDK.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libLetvCameraImageSDK.so \
+    vendor/leeco/s2/proprietary/system/lib/libamipengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libamipengine.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcimgutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcimgutils.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcimgutilsbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcimgutilsbase.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_beautyshot.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcsoft_face_detection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_face_detection.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcsoft_face_tracking.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_face_tracking.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_hdr.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_night_shot.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/leeco/s2/proprietary/system/lib/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_smart_denoise.so \
+    vendor/leeco/s2/proprietary/system/lib/libcamera_letv_algo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_letv_algo.so \
+    vendor/leeco/s2/proprietary/system/lib/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpbase.so \
+    vendor/leeco/s2/proprietary/system/lib/libmpkernel.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpkernel.so \
+    vendor/leeco/s2/proprietary/system/lib/libmpstream.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpstream.so \
+    vendor/leeco/s2/proprietary/system/lib/libmputility.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmputility.so \
+    vendor/leeco/s2/proprietary/system/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
+    vendor/leeco/s2/proprietary/system/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.default.so \
+    vendor/leeco/s2/proprietary/system/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gxfingerprint.default.so \
+    vendor/leeco/s2/proprietary/system/lib64/libfp_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_client.so \
+    vendor/leeco/s2/proprietary/system/lib64/libfp_gf_intejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_gf_intejni.so \
+    vendor/leeco/s2/proprietary/system/lib64/libfpnav.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpnav.so \
+    vendor/leeco/s2/proprietary/system/lib64/libfpservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpservice.so \
     vendor/leeco/s2/proprietary/vendor/bin/gx_fpcmd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpcmd \
     vendor/leeco/s2/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/leeco/s2/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
@@ -328,21 +322,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtfa9890
 PRODUCT_COPY_FILES += \
-    vendor/leeco/s2/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
-    vendor/leeco/s2/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
-    vendor/leeco/s2/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
-    vendor/leeco/s2/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/leeco/s2/proprietary/product/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/QtiTelephonyServicelibrary.jar \
-    vendor/leeco/s2/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/leeco/s2/proprietary/product/framework/qcrilhook.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qcrilhook.jar \
-    vendor/leeco/s2/proprietary/lib/libqvr_adsp_driver_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_adsp_driver_stub.so \
-    vendor/leeco/s2/proprietary/lib/rfsa/adsp/libqvr_adsp_driver_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib/rfsa/adsp/libqvr_adsp_driver_skel.so \
-    vendor/leeco/s2/proprietary/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.postproc@1.0.so \
-    vendor/leeco/s2/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/leeco/s2/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/leeco/s2/proprietary/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.postproc@1.0.so \
-    vendor/leeco/s2/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/leeco/s2/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/leeco/s2/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/leeco/s2/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/leeco/s2/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
@@ -380,7 +359,22 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/leeco/s2/proprietary/product/lib64/librcc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/librcc.so \
     vendor/leeco/s2/proprietary/product/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/leeco/s2/proprietary/system/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
+    vendor/leeco/s2/proprietary/system/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
+    vendor/leeco/s2/proprietary/system/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
+    vendor/leeco/s2/proprietary/system/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/leeco/s2/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
+    vendor/leeco/s2/proprietary/product/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/QtiTelephonyServicelibrary.jar \
+    vendor/leeco/s2/proprietary/system/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/leeco/s2/proprietary/product/framework/qcrilhook.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qcrilhook.jar \
+    vendor/leeco/s2/proprietary/system/lib/libqvr_adsp_driver_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_adsp_driver_stub.so \
+    vendor/leeco/s2/proprietary/system/lib/rfsa/adsp/libqvr_adsp_driver_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib/rfsa/adsp/libqvr_adsp_driver_skel.so \
+    vendor/leeco/s2/proprietary/system/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.postproc@1.0.so \
+    vendor/leeco/s2/proprietary/system/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/leeco/s2/proprietary/system/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/leeco/s2/proprietary/system/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.postproc@1.0.so \
+    vendor/leeco/s2/proprietary/system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/leeco/s2/proprietary/system/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/leeco/s2/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/leeco/s2/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/leeco/s2/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
@@ -388,10 +382,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/leeco/s2/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/leeco/s2/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
-    vendor/leeco/s2/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
-    vendor/leeco/s2/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
     vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.0-service \
     vendor/leeco/s2/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
@@ -418,8 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/leeco/s2/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/leeco/s2/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
-    vendor/leeco/s2/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
-    vendor/leeco/s2/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
+    vendor/leeco/s2/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/leeco/s2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -451,7 +442,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/leeco/s2/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
-    vendor/leeco/s2/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
@@ -469,8 +459,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/leeco/s2/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
-    vendor/leeco/s2/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
     vendor/leeco/s2/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/leeco/s2/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/leeco/s2/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/leeco/s2/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
@@ -479,6 +469,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
     vendor/leeco/s2/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/s2/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/leeco/s2/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/leeco/s2/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
     vendor/leeco/s2/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/leeco/s2/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -595,12 +596,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0_vendor.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0_vendor.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.2.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.0.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
-    vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/leeco/s2/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
@@ -620,7 +615,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/activity_recognition.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8952.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8952.so \
     vendor/leeco/s2/proprietary/vendor/lib64/hw/keystore.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8952.so \
@@ -673,7 +667,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
@@ -695,10 +688,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwdaphal.so \
@@ -709,8 +698,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/leeco/s2/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
     vendor/leeco/s2/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
     vendor/leeco/s2/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
@@ -832,14 +820,13 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
-    libloc_api_v02 \
     UEIQuicksetSDKLeTV \
     CneApp \
     IWlanService \
     TimeService \
-    QtiTelephonyService \
     PowerOffAlarm \
     uceShimService \
-    qcrilmsgtunnel \
+    QtiTelephonyService \
     dpmserviceapp \
-    ims
+    ims \
+    qcrilmsgtunnel
